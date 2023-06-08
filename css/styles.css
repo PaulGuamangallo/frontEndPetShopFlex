@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+nav.barraLang{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+p.txtPromo{
+    margin-left: 110px;
+}
+ul.langOpt{
+    padding-right: 50px;
+    list-style-type: none;
+    align-items: center;    
+}
+li.liLang{
+    display: inline;
+    padding: 10px;
+}
+nav.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 168, 62, 1);
+    height: 70px;
+}
+div.bannerIzq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+img.imgH{
+    background-size: auto;
+}
+ul.contMenuL{
+    display: flex;
+    justify-content: space-around;
+}
+p.contMenu{
+    padding: 10px;
+    color: white;
+}
+span.front{
+    color: rgba(60, 35, 19, 1);
+}
+section.imgBakg{
+    background: url("../img/comidagrande.png");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+nav.barraLang{
+    background-color: black;
+    color: rgba(243, 243, 243, 1);
+}
+
+button.btn1{
+    background-color: rgba(240, 168, 62, 1);
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+h2#lblPlac{
+    font-size: 30px;
+    color: rgba(60, 35, 19, 1);
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+p.posPr{
+    padding: 15px;
+}
+section.lblMid{
+    text-align: center;
+}
+
+h2.lblpDes{
+    font-size: 40px;
+    color: rgba(60, 35, 19, 1);
+    font-weight: bold;
+}
+main{
+    text-align: center;
+}
+p.links{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+section.lblMid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article.pagCont{
+    place-self:initial;
+}
+section.contact{   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article.botones{
+    display: inline;
+}
+
+.fio{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: rgba(60, 35, 19, 1);
+    color: white;
+    font-size: 9px;
+    border-radius: 5px;
+    border: 0;
+}
+.fion{
+    background-color: rgba(240, 168, 62, 1);
+    border: 0;
+    border-radius: 10px;
+    padding: 5px ;
+    width: 90px;
+}
+
+.linear{
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+    align-items: baseline;
+    height: 50px;
+}
+.imgCtc{
+   float: left;
+}
+h2.hCtc{
+    float: left;
+    padding: 5px;
+}
+.info{
+    background-color: rgba(60, 35, 19, 1);
+}
+.pFin{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.algF{
+    float: right;
+}
+.hFoo{
+    color: white;
+}
+.pFoo{
+    color: grey;
+}
+
+.hFin{
+    color: white;
+    font-weight: bold;
+}
+
+.sFin{
+    color: rgba(240, 168, 62, 1);
+}
+
